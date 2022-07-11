@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julius Gabotero</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef1571087b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h2>Julius</h2>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-bars" onclick="showPanel()"></i>
+        </nav>
+        <div id="sidepanel">
+            <a href="#home" onclick="hidePanel()">Home</a>
+            <a href="#about" onclick="hidePanel()">About</a>
+            <a href="#certificates" onclick="hidePanel()">Certificates</a>
+            <a href="#home" onclick="hidePanel()">Contact</a>
+            <span onclick="hidePanel()">close<i class="fa-solid fa-xmark"></i></span>
+        </div>
+    </header>
+    <section id="home">
+        <div id="myphoto">
+            <img src="assets/photo-intro.jpg" alt="">
+        </div>
+        <div id="message">
+            <h1>I'm Julius Gabotero</h1>
+            <span>CS Student and a Barber</span>
+        </div>
+    </section>
+    <section id="about">
+        <div id="main">
+            <img src="assets/about-pic.jpg" alt="">
+            <div id="about-text">
+                <h2>About Me</h2>
+                <h5>Student <span>& Barber</span></h5>
+                <p>I am Julius Gabotero, from Sua, Inabanga, Bohol. I completed my 
+                    Elementary school years at San Jose Elementary School, my High 
+                    school years at San Jose National High School, and currently in 
+                    Bohol Island State University - Clarin campus as a 3rd year BSCS 
+                    major. Aside from being a student, I am also a part time Barber
+                    and I also like singing. You can contact me anytime to avail my
+                    service or you can go directly at my barber shop located at Sua,
+                    Inabanga, Bohol. 
+                </p>
+                <a href="#contact" class="button">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    <section id="certificates">
+        <div class="cert-wrapper">
+            <div class="heading">
+                <h1>Certificates</h1>
+                <p>
+                    I acquired these certificates in my Web Development/Enterprise Course.
+                    These certificates were issued by Sololearn website after completing each
+                    course.
+                </p>
+            </div>
+            <div class="album">
+                <div class="album-item">
+                    <img class="album-image" src="assets/html.jpg">
+                </div>
+                <div class="album-item">
+                    <img class="album-image" src="assets/css.jpg">
+                </div>
+                <div class="album-item">
+                    <img class="album-image" src="assets/js.jpg">
+                </div>
+                <div class="album-item">
+                    <img class="album-image" src="assets/responsive.jpg">
+                </div>
+                <div class="album-item">
+                    <img class="album-image" src="assets/php.jpg">
+                </div>
+                <div class="album-item">
+                    <img class="album-image" src="assets/python.jpg">
+                </div>
+            </div>
+    </section>
+    <section id="contact">
+        <div id="contact-container">
+            <div id="contact-photo">
+                <img src="assets/contact-pic.jpg" alt="">
+            </div>
+            <div id="contact-title">
+                <h1>contact me</h1>
+                <h3>Message me with the following accounts</h3>
+            </div>
+            <div id="media-wrapper">
+                <div id="phone" class="media">
+                    <i class="fa-solid fa-square-phone"></i>
+                    <span>09651453094</span>
+                </div>
+                <div id="mail" class="media">
+                    <i class="fa-solid fa-square-envelope"></i>
+                    <span>juliusgabotero2000<br> @gmail.com</span>
+                </div>
+                <div id="facebook" class="media">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <span><a href="https://web.facebook.com/julius.j.gabotero">Julius Gabotero</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
