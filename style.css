@@ -404,6 +404,9 @@ header nav .fa-bars {
 }
 
 @media (max-width:900px) {
+    #myphoto img {
+        margin-top: 50px;
+    }
     #contact-container {
         width: 90%;
     }
